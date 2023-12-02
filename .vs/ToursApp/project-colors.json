@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d14a576a-31de-47a5-8dcc-484c23e9119a": {
+      "ProjectGuid": "d14a576a-31de-47a5-8dcc-484c23e9119a",
+      "DisplayName": "ToursApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
