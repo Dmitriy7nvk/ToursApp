@@ -24,7 +24,7 @@ namespace ToursApp
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Navigate(new HotelPage());
+            MainFrame.Navigate(new ToursPage());
             Manager.MainFrame = MainFrame;
 
             ImportTours();
@@ -47,7 +47,7 @@ namespace ToursApp
                     IsActual = (data[4] == "0") ? false : true
                 };
 
-                foreach (var tourType in data[5].Split(new string[] { ", "}, StringSplitOptions.RemoveEmptyEntries))
+                foreach (var tourType in data[5].Replace("\"", "").Split(new string[] { ", "}, StringSplitOptions.RemoveEmptyEntries))
                 {
                     var currentType = upEntities.GetContext().Types.ToList().FirstOrDefault(p => p.Name == tourType);
                     if (currentType != null)

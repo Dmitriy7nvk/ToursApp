@@ -26,3 +26,5 @@ C:\Users\diman\Programming\Visual Studio\ToursApp\bin\Debug\EntityFramework.xml
 C:\Users\diman\Programming\Visual Studio\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\diman\Programming\Visual Studio\ToursApp\bin\Debug\ru\EntityFramework.resources.dll
 C:\Users\diman\Programming\Visual Studio\ToursApp\obj\Debug\ToursApp.csproj.CopyComplete
+C:\Users\diman\Programming\Visual Studio\ToursApp\obj\Debug\ToursPage.g.cs
+C:\Users\diman\Programming\Visual Studio\ToursApp\obj\Debug\ToursPage.baml

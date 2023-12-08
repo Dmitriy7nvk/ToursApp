@@ -12,6 +12,7 @@ namespace ToursApp
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+
     
     public partial class upEntities : DbContext
     {
@@ -20,7 +21,7 @@ namespace ToursApp
             : base("name=upEntities")
         {
         }
-
+    
         public static upEntities GetContext()
         {
             if (_context == null)
@@ -29,7 +30,6 @@ namespace ToursApp
             }
             return _context;
         }
-    
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
